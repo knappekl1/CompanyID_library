@@ -1,0 +1,48 @@
+{
+  "name": "GetCompanyID",
+  "description": "Reads input string, selects Company ID number(s), checks validity and returns Company Name for the ID.\r\n\r\nArguments: In String, Out Dictionary",
+  "main": "NewActivity.xaml",
+  "dependencies": {
+    "Microsoft.Activities.Extensions": "2.0.6.9",
+    "UiPath.Excel.Activities": "2.8.5",
+    "UiPath.Mail.Activities": "1.8.5",
+    "UiPath.System.Activities": "20.4.0",
+    "UiPath.UIAutomation.Activities": "20.4.1",
+    "UiPath.WebAPI.Activities": "1.4.5"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.1.0",
+  "projectVersion": "1.0.7",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Library",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}
